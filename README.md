@@ -2,5 +2,7 @@
 
 # Add new page
 
-Put the HTML and CSS file and pictures into the pages folder/directory :)
-Also don't forget to upload the pictures you used into pages as well
+put the HTML and CSS file into the pages folder/directory :)
+pics go in the public folder
+
+so make sure the paths in the html files are correct
