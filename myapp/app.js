@@ -4,7 +4,7 @@ const port = 3000
 app.use(express.static('public'))
 
 app.get('/', function (req, res){
-	res.sendFile(__dirname + '/pages/doctorpatient.html');
+	res.sendFile(__dirname + '/pages/home.html');
 });
 
 app.listen(port, () => console.log('Example app listening at http://localhost:3000'))
