@@ -2,18 +2,54 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="DoctorPortal.css" type="text/css">
     </head>
-    <button class="btn"onClick="location.href='/'"><i class="fa fa-home" ></i></button>
     <body>
+        <button class="btn"onClick="location.href='/'"><i class="fa fa-home" ></i></button>
         <html>
-        <h1>Doctor Portal</h1>
-        <h2>What is the diagnosis?</h2>
-        <h3>Prescription?</h3>
-        <h4>Dosages</h4>
-        <h5> Notes for patient:</h5></h5L>
-    </html>
+            <h1>Doctor Portal</h1>
+        </html>
+        <div class="container">
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">What is the diagnosis?</label>
+                </div>
+                <div class="col-75" >
+                  <input type="text" id="diagnosis" name="diagnosis" placeholder="Diagnosis...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Prescription</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="prescription" name="prescription" placeholder="Prescription...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Dosages</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="pills">pills</option>
+                    <option value="mL">mL</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Notes for patient</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="notes" name="notes" placeholder="Notes..." style="height:200px"></textarea>
+                </div>
+              </div>
+            </form>
+        </div>
     </body>
 </html>
 
