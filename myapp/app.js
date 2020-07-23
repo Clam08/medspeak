@@ -10,8 +10,7 @@ const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
 
 //for images
-app.use(express.static(path.join(__dirname, '/pages/public')))
-app.use(express.static(__dirname + '/pages')
+app.use(express.static(__dirname + '/pages'))
 
 // translation stuff
 i18next
