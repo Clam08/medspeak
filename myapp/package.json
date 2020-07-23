@@ -9,6 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "i18next": "^19.6.2",
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-node-fs-backend": "^2.1.3"
   }
 }
