@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top:50px;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  border: none;
+  color: grey;
+  padding: 12px 16px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.pic {
+  size: 50%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+textarea{
+  rows:4
+  cols:50
+}

@@ -1,5 +1,7 @@
 .btn {
-    margin-left: 48%;
+    display: flex;
+    align-items: center;
+    margin: auto;
     background-color: white;
     border: none;
     color: grey;
@@ -51,9 +53,9 @@ h1 {
   }
   
   .col-25 {
-    float: left;
+    float: center;
     width: 100%;
-    margin-left: 300px;
+    margin-left: 25%;
     margin-top: 6px;
     font-size: 20px;
   }
@@ -62,7 +64,7 @@ h1 {
     float: center;
     width: 50%;
     margin-top: 6px;
-    margin-left: 300px;
+    margin-left: 25%;
   }
   
   /* Clear floats after the columns */

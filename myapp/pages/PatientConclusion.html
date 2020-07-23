@@ -14,10 +14,7 @@
                   <label for="fname">Patient's Language</label>
                 </div>
                 <div class="col-75" >
-                    <select id="languages" name="languages">
-                        <option value="pills">English</option>
-                        <option value="mL">Español</option>
-                      </select>
+                   <textarea readonly id="language" name="language" style=rows="1" cols="50">English</textarea>
                 </div>
               </div>
               <div class="row">
@@ -25,7 +22,7 @@
                   <label for="lname">Diagnosis</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="diagnosis" name="diagnosis">
+                  <textarea readonly id="language" name="language" style=rows="1" cols="50">Fever</textarea>
                 </div>
               </div>
               <div class="row">
@@ -33,7 +30,7 @@
                   <label for="prescription">Prescription</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="prescription" name="prescription">
+                    <textarea readonly id="language" name="language" style=rows="1" cols="50">200mg of Ibuprofen</textarea>
                 </div>
               </div>
               <div class="row">
@@ -41,10 +38,18 @@
                   <label for="subject">Doctor's Notes</label>
                 </div>
                 <div class="col-75">
-                  <textarea id="notes" name="notes" style="height:200px"></textarea>
+                  <textarea readonly id="notes" name="notes" style="height:200px">Consume with food and only every 4 to 6 hours. Do not take more than 3200mg daily.</textarea>
                 </div>
               </div>
             </form>
+        </div>
+        <div class = row2>
+            <div class = "column">
+                <button class="btn" onClick="location.href='/'"><i class="fa fa-rotate-left"></i></button>
+            </div>
+            <div class = "column">
+                <button class="btn" onClick="location.href='/email'"><i class="fa fa-save"></i></button>
+            </div>  
         </div>
     </body>
 </html>

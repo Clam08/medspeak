@@ -36,9 +36,7 @@ app.use(i18nextMiddleware.handle(i18next, {
   );
 
 // routes
-app.get('/', function (req, res){
-	res.sendFile(__dirname + '/pages/home.html');
-});
+
 app.get('/user1-language', function (req, res){
 	res.sendFile(__dirname + '/pages/language1.html');
 });
@@ -54,7 +52,18 @@ app.get('/patient-portal', function (req, res){
 app.get('/doctor-portal', function (req, res){
 	res.sendFile(__dirname + '/pages/DoctorPortal.html');
 });
-
+app.get('/doctor-note', function (req, res){
+  res.sendFile(__dirname + '/pages/PatientConclusion.html');
+});
+app.get('/email', function (req, res){
+  res.sendFile(__dirname + '/pages/email.html');
+});
+app.get('/wait', function (req, res){
+  res.sendFile(__dirname + '/pages/wait.html');
+});
+app.get('/', function (req, res){
+  res.sendFile(__dirname + '/pages/home.html');
+});
 // console log message
 app.listen(port, () => console.log('Example app listening at http://localhost:3000'))
 
