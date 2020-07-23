@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="PatientConclusion.css">
+    </head>
+    <button class="btn" onClick="location.href='/'"><i class="fa fa-home" ></i></button>
+    <body>
+        <div class="container">
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Patient's Language</label>
+                </div>
+                <div class="col-75" >
+                    <select id="languages" name="languages">
+                        <option value="pills">English</option>
+                        <option value="mL">Español</option>
+                      </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Diagnosis</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="diagnosis" name="diagnosis">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="prescription">Prescription</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="prescription" name="prescription">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Doctor's Notes</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="notes" name="notes" style="height:200px"></textarea>
+                </div>
+              </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+

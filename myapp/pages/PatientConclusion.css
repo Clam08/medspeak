@@ -1,0 +1,80 @@
+.btn {
+    margin-left: 48%;
+    background-color: white;
+    border: none;
+    color: grey;
+    padding: 12px 16px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+  }
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding:12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 100%;
+    margin-left: 300px;
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  
+  .col-75 {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    margin-left: 300px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
