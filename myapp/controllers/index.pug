@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Welcome to #{title}
+	p Welcome #{t("home.title")}
+	p It's a translation article application
+
+	a(href='?lng=en') English <br>
+	a(href='?lng=es') Spanish

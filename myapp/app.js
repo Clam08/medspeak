@@ -29,6 +29,11 @@ i18next
 });
 
 app.use(i18nextMiddleware.handle(i18next));
+app.use(i18nextMiddleware.handle(i18next, {
+      ignoreRoutes: ["/foo"], // or function(req, res, options, i18next) { /* return true to ignore */ }
+      removeLngFromUrl: false
+    })
+  );
 
 // routes
 app.get('/', function (req, res){

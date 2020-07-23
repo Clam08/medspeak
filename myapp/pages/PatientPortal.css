@@ -1,5 +1,7 @@
 .btn {
-    margin-left: 48%;
+    display: flex;
+    align-items: center;
+    margin: auto;
     background-color: white;
     border: none;
     color: grey;
@@ -15,13 +17,8 @@ h1 {
 }
 h2{
     font-size: 20px;
-    margin-left: 450px;
     margin-top:50px; 
-}
-h3{
-    font-size: 20px;
-    margin-left: 450px;
-    margin-top:50px; 
+    text-align: center;
 }
 .dot1 {
     height: 50px;
@@ -29,7 +26,9 @@ h3{
     background-color:green;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 450px;
+    margin-left: 29%;
+    text-align: center;
+
 }
 .dot2 {
     height: 50px;
@@ -37,42 +36,42 @@ h3{
     background-color: yellow;
     border-radius: 50%;
     display: inline-block;
-    margin-left:20px;
+    margin-left:2.5%;
+    text-align: center;
   }
-  .dot3 {
+.dot3 {
     height: 50px;
     width: 50px;
     background-color: orange;
     border-radius: 50%;
     display: inline-block;
-    margin-left:20px;
-  }
-  .dot4 {
+    margin-left:2.5%;
+    text-align: center;
+}
+.dot4 {
     height: 50px;
     width: 50px;
     background-color: sienna;
     border-radius: 50%;
     display: inline-block;
-    margin-left:20px;
-  }
-  .dot5 {
+    margin-left:2.5%;
+    text-align: center;
+}
+.dot5 {
     height: 50px;
     width: 50px;
     background-color:red;
     border-radius: 50%;
     display: inline-block;
-    margin-left:20px;
-  }
-  .col-75 {
-    float: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 6px;
-    margin-left: 450px;
-  }
-  @media screen and (max-width: 600px) {
-    .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+    margin-left:2.5%;
+    text-align: center;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+textarea{
+  rows:4
+  cols:50
+}

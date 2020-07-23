@@ -5,20 +5,20 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="PatientPortal.css">
     </head>
+    <button class="btn"onClick="location.href='/'"><i class="fa fa-home" ></i></button>
+    <h1>Patient Portal</h1>
+    <h2>Rate Your Pain</h2>
     <body>
-        <button class="btn"onClick="location.href='/'"><i class="fa fa-home" ></i></button>
-        <h1>Patient Portal</h1>
-        <h2>Rate Your Pain</h2>
-        <span class="dot1"></span>
-        <span class="dot2"></span>
-        <span class="dot3"></span>
-        <span class="dot4"></span>
-        <span class ="dot5"></span>
-        <h3>What Happened?</h3>
+        <span class="dot1"><p></p>1</span>
+        <span class="dot2"><p></p>2</span>
+        <span class="dot3"><p></p>3</span>
+        <span class="dot4"><p></p>4</span>
+        <span class="dot5"><p></p>5</span>
+        <h2>What Happened?</h2>
         <div class="container">
             <form action="/action_page.php">
-                <div class="col-75" >
-                    <textarea id="notes" name="notes" placeholder="What Happened..." style="height:200px" style = "height: 400px;"></textarea>
+                <div class="textarea" >
+                    <textarea id="notes" name="notes" placeholder="What Happened..." rows="4" cols="50"></textarea>
                   </div>
             </form>
         </div>

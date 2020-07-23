@@ -14,7 +14,10 @@ p {
 }
 
 .btn {
-  margin-left: 48%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
   background-color: white;
   border: none;
   color: grey;
