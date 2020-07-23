@@ -11,6 +11,7 @@ h1 {
 p {
   color: black;
   text-align: center;
+  margin-bottom:-10px;
 }
 
 .btn {
@@ -25,9 +26,7 @@ p {
   cursor: pointer;
   text-align: center;
 }
-.center {
-  text-align: center;
-}
+
 .pic {
   size: 50%;
   display: flex;
